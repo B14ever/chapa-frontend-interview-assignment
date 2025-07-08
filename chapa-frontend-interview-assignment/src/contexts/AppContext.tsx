@@ -1,7 +1,6 @@
-import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
-import type { AppContextType, PaymentSummary, SystemStats, Transaction, User } from "../types";
-import { mockApi } from "../service/mockApi";
-
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { User, Transaction, PaymentSummary, SystemStats, AppContextType } from '../types';
+import { mockApi } from '../services/mockApi';
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
 

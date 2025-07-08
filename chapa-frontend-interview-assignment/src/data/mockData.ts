@@ -1,5 +1,4 @@
-import type { PaymentSummary, SystemStats, Transaction, User } from "../types";
-
+import { User, Transaction, PaymentSummary, SystemStats } from '../types';
 
 export const mockUsers: User[] = [
   {
